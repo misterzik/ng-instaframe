@@ -1,0 +1,33 @@
+{
+    "name": "ng-instaframe",
+    "description": "ng-instaframe is built in Angular 7+, The Module feature Insta-Frame comes in with a configuration options which will help you embbed your instagram profile account to your profile",
+    "author": "Nick <MisterZik> R",
+    "version": "1.0.0",
+    "license": "GNU",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/misterzik/ng-instaframe.git"
+    },
+    "homepage": "https://github.com/misterzik/ng-instaframe.git#readme",
+    "bugs": {
+        "url": "https://github.com/misterzik/ng-instaframe.git/issues"
+    },
+    "peerDependencies": {
+        "@angular/common": "~7.2.0",
+        "@angular/core": "~7.2.0",
+        "instafeed.js": "^1.4.1",
+        "typescript": "~3.2.2",
+        "rxjs": "~6.3.3",
+        "zone.js": "~0.8.26"
+    },
+    "keywords": [
+        "angular",
+        "angular7",
+        "ng7",
+        "angular social media",
+        "angular instagram button",
+        "angular instagram fame",
+        "angular instagram frame",
+        "angular module"
+    ]
+}

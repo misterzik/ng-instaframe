@@ -1,0 +1,48 @@
+@import "./_gridzy";
+::ng-deep {
+    $color_concrete_approx: #f3f3f3;
+    $color_curious_blue_approx: #3498db;
+    $color_picton_blue_approx: #4ca6e2;
+    $color_viking_approx: #68b6ea;
+    @mixin border-radius($radius) {
+        border-radius: $radius;
+        -webkit-border-radius: $radius;
+        -moz-border-radius: $radius;
+    }
+    @mixin transform($transforms) {
+        -moz-transform: $transforms;
+        -o-transform: $transforms;
+        -ms-transform: $transforms;
+        -webkit-transform: $transforms;
+        transform: $transforms;
+    }
+    .loader {
+        border: 16px solid $color_concrete_approx;
+        border-top: 16px solid $color_curious_blue_approx;
+        border-right: 16px solid $color_picton_blue_approx;
+        border-bottom: 16px solid $color_viking_approx;
+        border-left: 16px solid $color_picton_blue_approx;
+        @include border-radius(50%);
+        width: 90px;
+        height: 90px;
+        animation: spin 2s linear infinite;
+        margin: 0 auto;
+    }
+    .loader_label {
+        padding: 15px;
+        font-family: initial;
+        text-transform: uppercase;
+        color: $color_curious_blue_approx;
+    }
+    @keyframes spin {
+        0% {
+            @include transform(rotate(0deg));
+        }
+        100% {
+            @include transform(rotate(360deg));
+        }
+    }
+    .insta-feed-img {
+        border: 1px solid;
+    }
+}

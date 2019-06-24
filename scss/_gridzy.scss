@@ -1,0 +1,93 @@
+// GridzyXS V1
+// https://github.com/misterzik/GridzyXS/blob/master/css/gxs.min.css
+::ng-deep {
+    *,
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box
+    }
+    .gxs-wrapper,
+    .gxs-row {
+        *zoom: 1
+    }
+    .gxs-wrapper:before,
+    .gxs-row:before,
+    .gxs-wrapper:after,
+    .gxs-row:after {
+        content: " ";
+        display: table
+    }
+    .gxs-wrapper:after,
+    .gxs-row:after {
+        clear: both
+    }
+    .gxs-container {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 60%
+    }
+    .gxs-container-full {
+        display: block;
+        width: 100%
+    }
+    .gxs-container-full .gxs-wrapper {
+        width: 100%
+    }
+    .gxs-wrapper {
+        width: 100%;
+        margin: 0 auto
+    }
+    [class*='col-'] {
+        float: left;
+        padding: 1em;
+        width: 100%;
+        min-height: 1px
+    }
+    @media only screen and (min-width: 30em) {
+        .gxs-wrapper {
+            width: 95%;
+            max-width: 100%
+        }
+        .col-1 {
+            width: 8.33333%
+        }
+        .col-2 {
+            width: 16.66667%
+        }
+        .col-3 {
+            width: 25%
+        }
+        .col-4 {
+            width: 33.33333%
+        }
+        .col-5 {
+            width: 41.66667%
+        }
+        .col-6 {
+            width: 50%
+        }
+        .col-7 {
+            width: 58.33333%
+        }
+        .col-8 {
+            width: 66.66667%
+        }
+        .col-9 {
+            width: 75%
+        }
+        .col-10 {
+            width: 83.33333%
+        }
+        .col-11 {
+            width: 91.66667%
+        }
+        .col-12 {
+            width: 100%
+        }
+    }
+}
